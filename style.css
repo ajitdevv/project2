@@ -132,33 +132,39 @@ html {
 
     padding: 0 17.1%;
     margin: 0 auto;
+    display: grid;
+    place-items: center;
+
     & .home-article{
-        display: grid;
-        /* justify-content: center;
-        align-items: center; */
-        place-items: center;
+        display: flex;
+        /* justify-content: center;  */
+        align-items: center; 
+        gap: 1.5rem;
+        /* align-content: center; */
+        /* place-items: center; */
         & .heading{
             
             & h1{
                 font-size: 3.8rem;
                 line-height: 1.2;
                 margin-bottom: 1.6rem;
-                margin-top: 3.9rem;
+                /* margin-top: 3.9rem; */
             }
             & p{
-                font-size: 2.2rem;
+                font-size: 1.7rem;
                 font-family: "Merriweather", serif;
                 color: var(--color-text-secondary);
-                margin-bottom: 2.4rem;
-                margin-top: 2.4rem;
-                letter-spacing: .14rem;
+                margin-bottom: 3.5rem;
+                    /* margin-top: 2.4rem; */
+                letter-spacing: .16rem;
                 word-spacing: .3rem;
-                line-height: 2.6rem;
+                line-height: 2.9rem;
             }
         }
         & .home-image img{
-            width: 100%;
+            width: 35rem;
             height: auto ;
+            z-index: -1;
         }
     }
 }
@@ -169,24 +175,23 @@ html {
     letter-spacing: .04rem;
     align-items: center;
     text-align: center;
-
-    /* /* margin-top: .3rem; */
-    width: 13rem;
+    /*/*margin-top: .3rem;
+    */width: 13rem;
     height: 2.6rem;
     padding-top: .2rem;
     padding-bottom: .2rem;
     padding-left: .5rem;
     padding-right: .5rem;
-    border-radius: .2rem;
-
-
-    -webkit-border-radius: .2rem;
-    -moz-border-radius: .2rem;
-    -ms-border-radius: .2rem;
-    -o-border-radius: .2rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
     color: var(--color-text-main);
-     background-color: var(--color-accent);
- &:hover{
+    background-color: var(--color-accent);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+&:hover{
         background-color: var(--color-link);
         transition: all 0.3s ease-in-out;
     }
