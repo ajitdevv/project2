@@ -26,6 +26,14 @@ for navbar under line effects #F472B6
 
 Text (secondary): #94A3B8 (light gray for paragraphs) */
 }
+:root{
+    --color-background: #0F172A;
+    --color-link: #38BDF8;
+    --color-accent: #F472B6;
+    --color-text-main: #F8FAFC;
+    --color-text-secondary: #94A3B8;
+    
+}
 
 html {
     font-size: 62.5%;
@@ -40,7 +48,7 @@ html {
 
 .header-container {
     width: 100%;
-    background-color: #0F172A;
+    background-color: var(--color-background);
 
     box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 30px -10px;
 
@@ -57,18 +65,18 @@ html {
     & .logo {
         font-size: 2.4rem;
         font-weight: 700;
-        color: #38BDF8;
-        border-top: 2px solid #38BDF8;
-        border-bottom: 2px solid #38BDF8;
-        border-right: 2px solid #38BDF8;
-        border-left: 2px solid #38BDF8;
+        color: var(--color-link);
+        border-top: 2px solid var(--color-link);
+        border-bottom: 2px solid var(--color-link);
+        border-right: 2px solid var(--color-link);
+        border-left: 2px solid var(--color-link);
         text-decoration: none;
         text-transform: capitalize;
         padding-right: .8rem;
 
         & span:first-child {
-            color: #0F172A;
-            background-color: #38BDF8;
+            color: var(--color-background);
+            background-color: var(--color-link);
             background-size: cover;
             padding-left: .8rem;
             padding-right: .8rem;
@@ -96,24 +104,26 @@ html {
                 &::after {
                     content: "";
                     position: absolute;
-                    border-bottom: 0.2rem solid #F472B6;
+                    border-bottom: 0.25rem solid var(--color-accent);
                     bottom: -.5rem;
                     left: 0;
                     width: 0%;
-                    transition: all 0.3s ease-in-out;
-                    -webkit-transition: all 0.3s ease-in-out;
-                    -moz-transition: all 0.3s ease-in-out;
-                    -ms-transition: all 0.3s ease-in-out;
-                    -o-transition: all 0.3s ease-in-out;
-}
+                    transition: all 0.2s ease-in-out;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -ms-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                }
+
+
+
 
                 &:hover::after {
                     width: 100%;
- 
+
                 }
             }
 
         }
     }
-
-   
+}
