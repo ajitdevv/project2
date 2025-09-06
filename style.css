@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #0F172A;
+    color: #F8FAFC;
+    /* Dark Modern Theme
+
+Background: #0F172A (deep navy gray)
+
+Primary (highlight/buttons/links): #38BDF8 (sky blue, neon feel)
+
+Accent: #F472B6 (soft pink for contrast)
+
+Text (main): #F8FAFC (white)
+logo #38BDF8
+
+
+
+for nav bar text colors #38BDF8
+for navbar under line effects #F472B6
+
+Text (secondary): #94A3B8 (light gray for paragraphs) */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 2.4rem; */
+    padding: 0 15%;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #0F172A;
+
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 30px -10px;
+
+    & .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 1rem; */
+        /* padding: 1.6rem 0; */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    & .logo {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #38BDF8;
+        border-top: 2px solid #38BDF8;
+        border-bottom: 2px solid #38BDF8;
+        border-right: 2px solid #38BDF8;
+        border-left: 2px solid #38BDF8;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding-right: .8rem;
+
+        & span:first-child {
+            color: #0F172A;
+            background-color: #38BDF8;
+            background-size: cover;
+            padding-left: .8rem;
+            padding-right: .8rem;
+            /* padding: 0.6rem 1rem; */
+        }
+
+    }
+
+    & .nav-links {
+        list-style: none;
+        display: flex;
+
+        & ul {
+            list-style: none;
+            display: flex;
+            gap: 3.2rem;
+            font-size: 1.5rem;
+
+            & a {
+                text-decoration: none;
+                color: #38BDF8;
+
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    border-bottom: 0.2rem solid #F472B6;
+                    bottom: -.5rem;
+                    left: 0;
+                    width: 0%;
+                    transition: all 0.3s ease-in-out;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    -moz-transition: all 0.3s ease-in-out;
+                    -ms-transition: all 0.3s ease-in-out;
+                    -o-transition: all 0.3s ease-in-out;
+}
+
+                &:hover::after {
+                    width: 100%;
+ 
+                }
+            }
+
+        }
+    }
+
+    @keyframes navline {}
