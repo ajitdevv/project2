@@ -196,3 +196,10 @@ html {
         transition: all 0.3s ease-in-out;
     }
 }
+.about{
+    max-width: 1200px;
+    & .about-article{
+        display: flex;
+        /* flex-direction: column; */
+    }
+}
