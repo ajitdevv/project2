@@ -162,7 +162,7 @@ html {
             }
         }
         & .home-image img{
-            width: 35rem;
+            width: 40rem;
             height: auto ;
             z-index: -1;
         }
