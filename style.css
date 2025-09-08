@@ -218,6 +218,12 @@ html {
 
 
         .about-article--headings {
+            & h1 {
+                font-size: 3.8rem;
+                line-height: 1.2;
+                margin-bottom: 1.6rem;
+                /* margin-top: 3.9rem; */
+            }     
             & p {
 
                 font-size: 1.7rem;
@@ -264,9 +270,6 @@ html {
 
         & .about-article--image {
             & img {
-                display: flex; 
-                justify-items: center;
-                align-items: center;
                 max-width: 270px;
                 width: 100%;
                 max-height: 380px;
