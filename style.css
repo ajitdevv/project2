@@ -218,10 +218,6 @@ html {
     -o-border-radius:2px ;
   
     
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
 
 }
 
@@ -256,10 +252,10 @@ html {
                 word-spacing: .3rem;
                 line-height: 2.9rem;
             }
-            /* & p:nth-of-type(1){
+ & p:nth-of-type(1){
              margin-top: 6rem;
             }
-            & p:nth-of-type(3){
+                        /*& p:nth-of-type(3){
                 background-color: rgba(255, 0, 0, 0.203);
                 padding: .8rem;
                 display: flex;
@@ -272,8 +268,8 @@ html {
                 -webkit-border-radius: .2rem;
                 -moz-border-radius: .2rem;
                 -ms-border-radius: .2rem;
-                -o-border-radius: .2rem;
-} */
+                -o-border-radius: .2rem;*/
+} 
 
             & .btn {
                 text-decoration: none;
