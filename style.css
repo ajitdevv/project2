@@ -206,7 +206,7 @@ html {
     }
 }
 
-.hr-first {
+/* .hr-first {
     height: 3px;
     background-color: var(--color-link);
 
@@ -220,7 +220,7 @@ html {
 
 
 
-}
+} */
 
 .about {
     max-width: 1200px;
