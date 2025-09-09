@@ -205,29 +205,30 @@ html {
         transition: all 0.3s ease-in-out;
     }
 }
-.hr-first{
+
+.hr-first {
     height: 3px;
     background-color: var(--color-link);
-    
+
     border: 1px solid var(--color-link);
     width: 90%;
-    border-radius:2px ;
-    -webkit-border-radius:2px ;
-    -moz-border-radius:2px ;
-    -ms-border-radius:2px ;
-    -o-border-radius:2px ;
-  
-    
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+
+
 
 }
 
 .about {
     max-width: 1200px;
-    margin-top: 6rem ;
+    margin-top: 6rem;
 
     & .about-article {
         display: grid;
-        /* flex-direction: column; */
+
         grid-template-columns: 65% 35%;
         gap: 1.5rem;
         padding: 0 21.4rem;
@@ -240,7 +241,8 @@ html {
                 line-height: 1.2;
                 margin-bottom: 1.6rem;
                 /* margin-top: 3.9rem; */
-            }     
+            }
+
             & p {
 
                 font-size: 1.7rem;
@@ -252,24 +254,26 @@ html {
                 word-spacing: .3rem;
                 line-height: 2.9rem;
             }
- & p:nth-of-type(1){
-             margin-top: 6rem;
+
+            & p:nth-of-type(1) {
+                margin-top: 6rem;
             }
-                        /*& p:nth-of-type(3){
+
+            & p:nth-of-type(3) {
                 background-color: rgba(255, 0, 0, 0.203);
                 padding: .8rem;
                 display: flex;
-                
+
                 color: whitesmoke;
-                border: .2rem solid var(--color-highlight) ;
-                
+                border: .2rem solid var(--color-highlight);
+
                 border-radius: .2rem;
 
                 -webkit-border-radius: .2rem;
                 -moz-border-radius: .2rem;
                 -ms-border-radius: .2rem;
-                -o-border-radius: .2rem;*/
-} 
+                -o-border-radius: .2rem;
+            }
 
             & .btn {
                 text-decoration: none;
@@ -322,14 +326,3 @@ html {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
