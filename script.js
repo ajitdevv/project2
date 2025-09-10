@@ -116,14 +116,14 @@
 
 // print numbers this numbers devided by 3 and 5 both in 1 to 50
 
-// for (let i = 0; i <= 50; i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         console.log(i)
+for (let i = 0; i <= 50; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i)
 
-//     }
+    }
 
 
-// }
+}
 
 // take a number by user and program explan ever number his even or odd
 let num = prompt(`type any number`)
