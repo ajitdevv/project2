@@ -194,15 +194,15 @@ its his do this 10% times
 */
 
 
-// function rps(usre, computer) {
-//     if (usre === computer) return "match his drow";
-//     if (usre === "roak" && computer === "siger") return "usre win";
-//     if (usre === "siger" && computer === "paper") return "user win";
-//     if (usre === "paper" && computer === "roak") return "user win";
-//     if (usre === "siger" && computer === "roak") return "computer win";
-//     if (usre === "paper" && computer === "siger") return "computer win";
-//     if (usre === "roak" && computer === "paper") return "computer win";
+function rps(usre, computer) {
+    if (usre === computer) return "match his drow";
+    if (usre === "roak" && computer === "siger") return "usre win";
+    if (usre === "siger" && computer === "paper") return "user win";
+    if (usre === "paper" && computer === "roak") return "user win";
+    if (usre === "siger" && computer === "roak") return "computer win";
+    if (usre === "paper" && computer === "siger") return "computer win";
+    if (usre === "roak" && computer === "paper") return "computer win";
 
 
-// }
-// console.log (rps("paper", "siger"));
+}
+console.log (rps("paper", "siger"));
