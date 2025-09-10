@@ -140,46 +140,46 @@
 
 
 // ?functions
-// function namefuc(name) {
-//     console.log("hey " + name + " i am good")
-//     console.log("hey " + name + " i to am good")
-//     console.log("hey " + name + " my name his" + name)
-//     console.log("hey " + name + " i a good explorar")
+function namefuc(name) {
+    console.log("hey " + name + " i am good")
+    console.log("hey " + name + " i to am good")
+    console.log("hey " + name + " my name his" + name)
+    console.log("hey " + name + " i a good explorar")
 
 
 
-// }
+}
 
 function abcd(...raju) {
     console.log(raju);
 }
 abcd(1,2,3,4,5,6,7,8)
 
-// let valuse ={
-// name:"prince",
-// age: 19,
-// gmail:"fghjk@gmail.com",
-// phone:"+91-1234567890"
+let valuse ={
+name:"prince",
+age: 19,
+gmail:"fghjk@gmail.com",
+phone:"+91-1234567890"
 
-// }
-// for (let raj in valuse) {
-//     console.log(raj,valuse[raj])
-// }
-// namefuc("raju")
-// namefuc(2)
-// function sum(a,b) {
-//     console.log(a+b)
+}
+for (let raj in valuse) {
+    console.log(raj,valuse[raj])
+}
+namefuc("raju")
+namefuc(2)
+function sum(a,b) {
+    console.log(a+b)
 
-// }
-// sum(2,4)
+}
+sum(2,4)
 
-// const Func=(w)=>{
-//     console.log("hy this his a arreo function",w)
+const Func=(w)=>{
+    console.log("hy this his a arreo function",w)
 
-// }
-// Func(34)
-// Func(74)
-// Func(37)
+}
+Func(34)
+Func(74)
+Func(37)
 
 
 /*  creat a faulty calculater using java script
