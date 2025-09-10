@@ -84,10 +84,10 @@
 // }
 
 // print even numbers from 1 to 20
-// for (let i = 1; i <= 20; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i)
-//     }
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i)
+    }
 
 // print odd numbers from 1 to 15 using while loop
 let i = 1;
@@ -99,10 +99,10 @@ while (i <= 15) {
 }
 
 // print a 5 table
-// for (let i = 1; i <=10; i++) {
-//     console.log(`5 * ${i} = ${5*i}`)
+for (let i = 1; i <=10; i++) {
+    console.log(`5 * ${i} = ${5*i}`)
 
-// }
+}
 
 // find the sum of 1 to 100 using a loop
 // let sum=0
