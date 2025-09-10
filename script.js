@@ -126,15 +126,15 @@
 // }
 
 // take a number by user and program explan ever number his even or odd
-// let num = prompt(`type any number`)
-// for (let i = 1; i < num; i++) {
-//     if (i % 2 === 0) {
-//         console.log(`${i}: his a even`)
+let num = prompt(`type any number`)
+for (let i = 1; i < num; i++) {
+    if (i % 2 === 0) {
+        console.log(`${i}: his a even`)
 
-//     } else {
-//         console.log(`${i}:his odd`)
-//     }
-// }
+    } else {
+        console.log(`${i}:his odd`)
+    }
+}
 
 
 
