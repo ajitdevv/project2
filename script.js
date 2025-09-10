@@ -149,16 +149,22 @@
 
 
 // }
-let valuse ={
-name:"prince",
-age: 19,
-gmail:"fghjk@gmail.com",
-phone:"+91,1234567890"
 
+function abcd(...raju) {
+    console.log(raju);
 }
-for (let raj of valuse) {
-    console.log(raj)
-}
+abcd(1,2,3,4,5,6,7,8)
+
+// let valuse ={
+// name:"prince",
+// age: 19,
+// gmail:"fghjk@gmail.com",
+// phone:"+91-1234567890"
+
+// }
+// for (let raj in valuse) {
+//     console.log(raj,valuse[raj])
+// }
 // namefuc("raju")
 // namefuc(2)
 // function sum(a,b) {
