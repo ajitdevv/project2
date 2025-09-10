@@ -71,17 +71,17 @@
 // }
 //  1 to 10 using for loop
 
-// for (let i=1; i <= 10; i--) {
-//     console.log(i)
+for (let i=1; i <= 10; i--) {
+    console.log(i)
 
-// }
+}
 // 20 to 1 using while loop 
-// let raj = 20
-// while (raj>=1) {
-//     console.log(raj)
-//     raj--
+let raj = 20
+while (raj>=1) {
+    console.log(raj)
+    raj--
 
-// }
+}
 
 // print even numbers from 1 to 20
 for (let i = 1; i <= 20; i++) {
