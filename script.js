@@ -33,7 +33,7 @@
 // }
 
 
-// ?prectis 2===4
+// ! prectis 2===4
 // let a = 10;
 // if (a / 3 || a / 2) {
 //     console.log("this his best for me")
@@ -44,14 +44,14 @@
 // }
 
 
-// ? ternary operater in java scripet
+// ! ternary operater in java scripet
 // let age = 18;
 // let a = age <= 18 ? console.log("you are not elageble") : console.log("your are elageble")
 
 
 
 
-// ?loops 
+// ! loops 
 // a=1
 // for (let i = 0; i < 6; i++) {
 //     console.log(a+i)
@@ -139,7 +139,7 @@
 
 
 
-// ?functions
+// ! functions
 // function namefuc(name) {
 //     console.log("hey " + name + " i am good")
 //     console.log("hey " + name + " i to am good")
@@ -149,6 +149,14 @@
 
 
 // }
+// function raju(aj) {
+//     aj()
+
+// }
+// raju(function ram(pr) {
+//     console.log("hi")
+
+// })
 
 // function abcd(...raju) {
 //     console.log(raju);
@@ -191,7 +199,7 @@
 // * ---> +
 // / ---> **
 // its his do this 10% times
-// 
+//
 
 
 // function rps(usre, computer) {
@@ -205,4 +213,54 @@
 
 
 // }
-// console.log (rps("paper", "siger"));
+// console.log (rps("paper", "siger"));nction
+
+// ? closer => one function this his return one more function and this return function call any one varible of parent function 
+
+
+// function raj() {
+
+//     let r=1;
+//     return function () {
+//         console.log(r);
+//     }
+    
+// }
+
+
+
+// ! Array
+
+// let arr = [1,2,3,4,5,]
+// arr[2]=20;
+
+// ? push
+let raj = [1,2,3,4,5]
+raj.push(6);
+// ? pop
+// let arm = [1,2,3,4,5,6]
+// arm.pop()
+// ? shift
+// let ram =[1,2,3,4,5,6,7]
+// ram.shift();
+// ? unshift
+// let raju = [1,2,3,4,5,6]
+// raju.unshift(0)
+// ? splice
+// let ramu=[1,2,3,4,5,6,7]
+// ramu.splice(4,2) ===> there 4 his the position of the index for start splice and 2 his the count of remove numbers like this there Array his [1,2,3,4,5,6,7] then 4 his index position according to this array 5=index 4 and 2 his count like this 5 and 6
+// then array his the [1,2,3,4,7] 
+
+// ? slice ===> this his extract array form execting array and not chang execting array
+// let i=[1,2,3,4,5,6,7]
+// let newi=i.slice(3,6)
+// ? reversing of a array 
+// let a=[1,2,3,4,5]
+// a.reverse()
+//? array shorting 
+// 1. acending order
+let rt=[1,23,34,34,76,56]
+let ram=rt.sort(function raju(alp,blp) {
+    return alp-blp;
+    
+})

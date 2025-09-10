@@ -1,1 +1,1 @@
-console.log(i)
+arr=[3]
