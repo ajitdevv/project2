@@ -396,17 +396,17 @@
 // },0)
 // ans==920
 // ? find the first number of lessthen 10 of this array [498, 345, 26, 12,9,10,23,5,6,7]
-// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-// let newarr = arr.find(function rak(val) {
-//     return val < 10
-// })
+let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+let newarr = arr.find(function rak(val) {
+    return val < 10
+})
 // ans=9
 // ? check for every student any have lessthen 35 number from this array let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-// let newarr=arr.some(function are(val) {
-//     return val<35
+let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+let newarr=arr.some(function are(val) {
+    return val<35
 
-// })
+})
 // ans:true
 //? check all numbers are even of this array let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
 // let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
@@ -416,11 +416,11 @@
 // })
 
 // ? using disturecter sperate first name and last name of array arr=["anuj","vanuj"]
-let arr=["anuj","vanuj"]
-let [firstname,lastname]=arr;
-add both arrays arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7],arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-let newarr=[1,7,3,7,3,498,345,5,26,12,5,8,...arr]
+// let arr=["anuj","vanuj"]
+// let [firstname,lastname]=arr;
+// add both arrays arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7],arr=[1,7,3,7,3,498,345,5,26,12,5,8]
+// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+// let newarr=[1,7,3,7,3,498,345,5,26,12,5,8,...arr]
 // ans:[1, 7, 3, 7, 3, 498, 345, 5, 26, 12, 5, 8, 498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
 
 
