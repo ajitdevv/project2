@@ -426,15 +426,6 @@
 
 // ! objects  ===> this his simller to arrays but this his very usefull 
 // ? syntex
-// let obj={
-// name: "prince",
-// age: 19,
-// time:12.25,
-// day:"monday",
-
-// }
-
-// ? access with . oprater
 let obj={
 name: "prince",
 age: 19,
@@ -442,9 +433,18 @@ time:12.25,
 day:"monday",
 
 }
-console.log(obj.age)
-console.log(obj.time)
-console.log(obj.name)
+
+// ? access with . oprater
+// let obj={
+// name: "prince",
+// age: 19,
+// time:12.25,
+// day:"monday",
+
+// }
+// console.log(obj.age)
+// console.log(obj.time)
+// console.log(obj.name)
 
 // ? access using [] operater
 // let obj={
