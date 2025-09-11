@@ -457,28 +457,6 @@
 // console.log[]******
 
 // ? nesting in objects
-// let obj = {
-//     name: "prince",
-//     age: 19,
-//     time: 12.25,
-//     day:{
-//         aget: 119,
-//         timel: 12.2567,
-//         ram:"khana khata h",
-//         sham:{
-//             raju:20,
-//             samu:34,
-//             vikki:24,
-//         },
-//     },
-// }
-// ? deep access 
-// console.log(obj.day.sham.vikki)
-// ans:24
-
-// ? dsturicting ===> this his use reduse code for deep accessing for multiple times 
-// let {vikki}=User.obj.day.sham =====> console.log(obj.day.sham.vikki) then agaion access vikki then use only vikki not console.log(obj.day.sham.vikki) and let {vikki}=User.obj.day.sham
-// ? deep copy 
 let obj = {
     name: "prince",
     age: 19,
@@ -494,5 +472,27 @@ let obj = {
         },
     },
 }
-let obj2=JSON.parse(JSON.stringify(obj))
-console.log(obj2)
+// ? deep access 
+console.log(obj.day.sham.vikki)
+ans:24
+
+// ? dsturicting ===> this his use reduse code for deep accessing for multiple times 
+// let {vikki}=User.obj.day.sham =====> console.log(obj.day.sham.vikki) then agaion access vikki then use only vikki not console.log(obj.day.sham.vikki) and let {vikki}=User.obj.day.sham
+// ? deep copy 
+// let obj = {
+//     name: "prince",
+//     age: 19,
+//     time: 12.25,
+//     day:{
+//         aget: 119,
+//         timel: 12.2567,
+//         ram:"khana khata h",
+//         sham:{
+//             raju:20,
+//             samu:34,
+//             vikki:24,
+//         },
+//     },
+// }
+// let obj2=JSON.parse(JSON.stringify(obj))
+// console.log(obj2)
