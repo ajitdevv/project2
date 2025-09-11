@@ -360,13 +360,13 @@
 // arr.splice(1,0,"red","blue")
 // console.log(arr)
 // ? extract 3 elements from the middle this array or=[1,45662,32,46,56,5676]
-// let or=[1,45662,32,46,56,5676]
-// let newor=or.slice(2,5)
+let or=[1,45662,32,46,56,5676]
+let newor=or.slice(2,5)
 // ans==[32, 46, 56] 
 // ? short his array  ===> arr=["wer","yhjm","hjm","hjk"] ,according to alphabets 
-let arr=["wer","yhjm","hjm","hjk"]
-arr.sort()
-arr.reverse()
+// let arr=["wer","yhjm","hjm","hjk"]
+// arr.sort()
+// arr.reverse()
 // ans==['hjk', 'hjm', 'wer', 'yhjm']
 // ? revers his array  ===> arr=['hjk', 'hjm', 'wer', 'yhjm'] 
 // let arr=["wer","yhjm","hjm","hjk"]
