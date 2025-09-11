@@ -416,23 +416,23 @@
 // })
 
 // ? using disturecter sperate first name and last name of array arr=["anuj","vanuj"]
-// let arr=["anuj","vanuj"]
-// let [firstname,lastname]=arr;
-// add both arrays arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7],arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-// let newarr=[1,7,3,7,3,498,345,5,26,12,5,8,...arr]
+let arr=["anuj","vanuj"]
+let [firstname,lastname]=arr;
+add both arrays arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7],arr=[1,7,3,7,3,498,345,5,26,12,5,8]
+let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+let newarr=[1,7,3,7,3,498,345,5,26,12,5,8,...arr]
 // ans:[1, 7, 3, 7, 3, 498, 345, 5, 26, 12, 5, 8, 498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
 
 
 // ! objects  ===> this his simller to arrays but this his very usefull 
 // ? syntex
-let obj={
-name: "prince",
-age: 19,
-time:12.25,
-day:"monday",
+// let obj={
+// name: "prince",
+// age: 19,
+// time:12.25,
+// day:"monday",
 
-}
+// }
 
 // ? access with . oprater
 // let obj={
