@@ -364,21 +364,21 @@
 // let newor=or.slice(2,5)
 // ans==[32, 46, 56] 
 // ? short his array  ===> arr=["wer","yhjm","hjm","hjk"] ,according to alphabets 
-// let arr=["wer","yhjm","hjm","hjk"]
-// arr.sort()
-// arr.reverse()
-// ans==['hjk', 'hjm', 'wer', 'yhjm']
-// ? revers his array  ===> arr=['hjk', 'hjm', 'wer', 'yhjm'] 
 let arr=["wer","yhjm","hjm","hjk"]
 arr.sort()
 arr.reverse()
-ans==['yhjm', 'wer', 'hjm', 'hjk']
+// ans==['hjk', 'hjm', 'wer', 'yhjm']
+// ? revers his array  ===> arr=['hjk', 'hjm', 'wer', 'yhjm'] 
+// let arr=["wer","yhjm","hjm","hjk"]
+// arr.sort()
+// arr.reverse()
+// ans==['yhjm', 'wer', 'hjm', 'hjk']
 // ? use .map finding each number square of this array ==> arr=[1,2,3,4,5,6,7]
-let arr = [1, 2, 3, 4, 5, 6, 7]
-let newarr=arr.map(function arra(val) {
-    return (val*val)
-})
-// ans==[1, 4, 9, 16, 25, 36, 49]
+// let arr = [1, 2, 3, 4, 5, 6, 7]
+// let newarr=arr.map(function arra(val) {
+//     return (val*val)
+// })
+// // ans==[1, 4, 9, 16, 25, 36, 49]
 
 // ? filter the array and only output his grater 10 to this array arr=[1,7,3,7,3,498,345,5,26,12,5,8]
 // let arr=[1,7,3,7,3,498,345,5,26,12,5,8]
