@@ -369,23 +369,23 @@
 // arr.reverse()
 // ans==['hjk', 'hjm', 'wer', 'yhjm']
 // ? revers his array  ===> arr=['hjk', 'hjm', 'wer', 'yhjm'] 
-// let arr=["wer","yhjm","hjm","hjk"]
-// arr.sort()
-// arr.reverse()
-// ans==['yhjm', 'wer', 'hjm', 'hjk']
+let arr=["wer","yhjm","hjm","hjk"]
+arr.sort()
+arr.reverse()
+ans==['yhjm', 'wer', 'hjm', 'hjk']
 // ? use .map finding each number square of this array ==> arr=[1,2,3,4,5,6,7]
-// let arr = [1, 2, 3, 4, 5, 6, 7]
-// let newarr=arr.map(function arra(val) {
-//     return (val*val)
-// })
+let arr = [1, 2, 3, 4, 5, 6, 7]
+let newarr=arr.map(function arra(val) {
+    return (val*val)
+})
 // ans==[1, 4, 9, 16, 25, 36, 49]
 
 // ? filter the array and only output his grater 10 to this array arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-let arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-let newarr=arr.filter(function ram(val) {
-    return(val>10)
+// let arr=[1,7,3,7,3,498,345,5,26,12,5,8]
+// let newarr=arr.filter(function ram(val) {
+//     return(val>10)
 
-})
+// })
 // ans==[498, 345, 26, 12]
 
 //? find sum of every Element of this array arr=[1,7,3,7,3,498,345,5,26,12,5,8]
