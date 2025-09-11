@@ -389,24 +389,24 @@
 // ans==[498, 345, 26, 12]
 
 //? find sum of every Element of this array arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-// let arr=[1,7,3,7,3,498,345,5,26,12,5,8]
-// let newarr=arr.reduce(function rsjs(accu , val) {
-//     return accu+val
+let arr=[1,7,3,7,3,498,345,5,26,12,5,8]
+let newarr=arr.reduce(function rsjs(accu , val) {
+    return accu+val
 
-// },0)
+},0)
 // ans==920
 // ? find the first number of lessthen 10 of this array [498, 345, 26, 12,9,10,23,5,6,7]
-let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-let newarr = arr.find(function rak(val) {
-    return val < 10
-})
+// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+// let newarr = arr.find(function rak(val) {
+//     return val < 10
+// })
 // ans=9
 // ? check for every student any have lessthen 35 number from this array let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
-let newarr=arr.some(function are(val) {
-    return val<35
+// let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
+// let newarr=arr.some(function are(val) {
+//     return val<35
 
-})
+// })
 // ans:true
 //? check all numbers are even of this array let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
 // let arr = [498, 345, 26, 12, 9, 10, 23, 5, 6, 7]
