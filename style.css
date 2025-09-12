@@ -352,12 +352,7 @@ html {
 
 
 
-/* Responsive adjustments */
-@media (max-width:900px){
-  .hero-grid{grid-template-columns:1fr}
-  .feature-grid{grid-template-columns:repeat(2,1fr)}
-  .nav a{margin-left:12px}
-}
+
 @media (max-width:600px){
   .feature-grid{grid-template-columns:1fr}
   .nav{display:none}
