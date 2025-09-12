@@ -353,11 +353,3 @@ html {
 
 
 
-@media (max-width:600px){
-  .feature-grid{grid-template-columns:1fr}
-  .nav{display:none}
-  .hero h2{font-size:1.5rem}
-}
-
-/* Utility (small) */
-ul{margin:0;padding-left:20px}
