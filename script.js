@@ -356,9 +356,9 @@
 // arr.push("kiwi")
 // console.log(arr)
 // ? add red and blue at index 1 in arr=["wer","wefg","asd"]
-let arr=["wer","wefg","asd"]
-arr.splice(1,0,"red","blue")
-console.log(arr)
+// let arr=["wer","wefg","asd"]
+// arr.splice(1,0,"red","blue")
+// console.log(arr)
 // ? extract 3 elements from the middle this array or=[1,45662,32,46,56,5676]
 // let or=[1,45662,32,46,56,5676]
 // let newor=or.slice(2,5)

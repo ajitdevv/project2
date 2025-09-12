@@ -4,5 +4,6 @@
 // let h1=document.querySelector("h1")  /*====> then log dont work then use dir */
 // console.dir(h1)
 // ? text menuplation
+
 // h1.innerHTML="hjkl"
 
