@@ -333,3 +333,73 @@ html {
         padding: 0 21.4rem;
 }
 }
+
+
+
+
+
+
+
+
+
+<header class="site-header">
+<a href="#about">About</a>
+<a href="#contact" class="btn">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<h2>Beautiful, simple, responsive</h2>
+<p>Clean starting template with HTML and separate CSS. Great for prototypes and teaching.</p>
+<p><a class="btn large" href="#features">See features</a></p>
+</div>
+<div class="card">
+<h3>Quick facts</h3>
+<ul>
+<li>No frameworks — plain HTML & CSS</li>
+<li>Responsive layout</li>
+<li>Easy to customize</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section id="features" class="container features">
+<h3>Features</h3>
+<div class="feature-grid">
+<article class="feature">
+<h4>Responsive</h4>
+<p>Layouts that adapt to phones, tablets, and desktops.</p>
+</article>
+<article class="feature">
+<h4>Accessible</h4>
+<p>Semantic markup and readable contrast for better accessibility.</p>
+</article>
+<article class="feature">
+<h4>Easy</h4>
+<p>Small, well-commented CSS so you can modify quickly.</p>
+</article>
+</div>
+</section>
+
+
+<section id="about" class="about">
+<div class="container">
+<h3>About this concept</h3>
+<p>This is a small, focused example: keep the structure and styling separate so it's easy to reuse across projects.</p>
+</div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>&copy; <span id="year"></span> Concept — Built with ❤️</p>
+</div>
+</footer>
