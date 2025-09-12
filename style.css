@@ -350,11 +350,6 @@ html {
 
 
 
-/* Features */
-.features{padding:40px 0}
-.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.feature{background:rgba(255,255,255,.02);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,.03)}
-.feature h4{margin:0 0 8px}
 
 /* About */
 .about{padding:30px 0;background:linear-gradient(180deg,rgba(255,255,255,.01),transparent)}
