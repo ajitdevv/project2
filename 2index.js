@@ -29,8 +29,13 @@
 //    h1.style.fontSize ="10px"
 // })
 
-let p=document.querySelector(".home .home-article .heading p")
-console.dir(p)
-p.addEventListener("click",function () {
-    p.style.color="green"
+// let p=document.querySelector(".home .home-article .heading p")
+// console.dir(p)
+// p.addEventListener("click",function () {
+//     p.style.color="green"
+// })
+let home_p = document.querySelector(".about .about-article .about-article--headings p")
+console.dir(home_p)
+home_p.addEventListener("click", function () {
+    home_p.style.color = "red"
 })
