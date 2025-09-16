@@ -28,6 +28,40 @@ for navbar under line effects #F472B6
 Text (secondary): #94A3B8 (light gray for paragraphs) */
 }
 
+
+
+
+/* body.dark {
+   
+    --color-background: #071026;   
+    --color-surface:    #0B1220;   
+    --color-card:       #0F172A;   
+    --color-elevated:   #162033;   
+    
+
+    --color-text-main:      rgba(255,255,255,0.94);
+    --color-text-secondary: rgba(255,255,255,0.68);
+    --color-border:         rgba(255,255,255,0.06);
+
+    
+    --color-link:    #7BE0FF;   
+    --color-accent:  #FF7AB8;   
+    --color-highlight:#FF6B6B;  
+    --color-accent-on: #071026; 
+  } */
+
+body.dark {
+  --color-background: #fff;      /* Pure black */
+  --color-link: rgb(1, 130, 130);            /* Cyan neon links */
+  --color-accent:rgb(0, 188, 188);          /* Magenta neon accent */
+  --color-text-main: #000000;       /* Neon green text */
+  --color-text-secondary: #CCCCCC;  /* Light gray fallback */
+  --color-highlight: #FF3131;       /* Bright red highlight */
+}
+
+
+
+
 :root {
     --color-background: #0F172A;
     --color-link: #38BDF8;
@@ -99,7 +133,8 @@ html {
 
             & a {
                 text-decoration: none;
-                color: #38BDF8;
+                /* color: #38BDF8; */
+                color: var(--color-link);
 
                 position: relative;
 
